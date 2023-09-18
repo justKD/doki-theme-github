@@ -1,13 +1,12 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna Custom
 @namespace      github.com/doki-theme
-@version        88.1.4
+@version        88.1.5
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
 @homepageURL    https://github.com/doki-theme/doki-theme-github
 ==/UserStyle== */
-@-moz-document regexp("^https?://((education|gist|graphql|guides|help|lab|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("www.githubstatus.com") {
 
 body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
